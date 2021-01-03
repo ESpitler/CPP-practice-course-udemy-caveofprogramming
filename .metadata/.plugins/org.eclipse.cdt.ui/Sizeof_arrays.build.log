@@ -1,0 +1,15 @@
+22:46:33 **** Incremental Build of configuration Debug for project Sizeof_arrays ****
+make all 
+Building file: ../src/Sizeof_arrays.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Sizeof_arrays.d" -MT"src/Sizeof_arrays.d" -o "src/Sizeof_arrays.o" "../src/Sizeof_arrays.cpp"
+Finished building: ../src/Sizeof_arrays.cpp
+ 
+Building target: Sizeof_arrays
+Invoking: Cross G++ Linker
+g++  -o "Sizeof_arrays"  ./src/Sizeof_arrays.o   
+Finished building target: Sizeof_arrays
+ 
+
+22:46:33 Build Finished (took 666ms)
+

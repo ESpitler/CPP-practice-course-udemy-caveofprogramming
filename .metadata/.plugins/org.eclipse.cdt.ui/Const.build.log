@@ -1,0 +1,15 @@
+14:17:36 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.d" -o "src/Const.o" "../src/Const.cpp"
+Finished building: ../src/Const.cpp
+ 
+Building target: Const
+Invoking: Cross G++ Linker
+g++  -o "Const"  ./src/Const.o   
+Finished building target: Const
+ 
+
+14:17:36 Build Finished (took 711ms)
+

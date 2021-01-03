@@ -1,0 +1,15 @@
+16:37:28 **** Incremental Build of configuration Debug for project Break_Continue ****
+make all 
+Building file: ../src/Break_Continue.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Break_Continue.d" -MT"src/Break_Continue.d" -o "src/Break_Continue.o" "../src/Break_Continue.cpp"
+Finished building: ../src/Break_Continue.cpp
+ 
+Building target: Break_Continue
+Invoking: Cross G++ Linker
+g++  -o "Break_Continue"  ./src/Break_Continue.o   
+Finished building target: Break_Continue
+ 
+
+16:37:28 Build Finished (took 675ms)
+

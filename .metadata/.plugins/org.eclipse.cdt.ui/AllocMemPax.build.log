@@ -1,0 +1,15 @@
+02:37:55 **** Incremental Build of configuration Debug for project AllocMemPax ****
+make all 
+Building file: ../src/AllocMemPax.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AllocMemPax.d" -MT"src/AllocMemPax.d" -o "src/AllocMemPax.o" "../src/AllocMemPax.cpp"
+Finished building: ../src/AllocMemPax.cpp
+ 
+Building target: AllocMemPax
+Invoking: Cross G++ Linker
+g++  -o "AllocMemPax"  ./src/AllocMemPax.o   
+Finished building target: AllocMemPax
+ 
+
+02:37:55 Build Finished (took 712ms)
+

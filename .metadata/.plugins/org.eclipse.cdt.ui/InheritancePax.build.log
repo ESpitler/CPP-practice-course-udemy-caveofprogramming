@@ -1,0 +1,15 @@
+00:06:17 **** Incremental Build of configuration Debug for project InheritancePax ****
+make all 
+Building file: ../src/InheritancePax.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InheritancePax.d" -MT"src/InheritancePax.d" -o "src/InheritancePax.o" "../src/InheritancePax.cpp"
+Finished building: ../src/InheritancePax.cpp
+ 
+Building target: InheritancePax
+Invoking: Cross G++ Linker
+g++  -o "InheritancePax"  ./src/InheritancePax.o   
+Finished building target: InheritancePax
+ 
+
+00:06:17 Build Finished (took 713ms)
+

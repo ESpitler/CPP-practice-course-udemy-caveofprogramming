@@ -1,0 +1,15 @@
+15:31:40 **** Incremental Build of configuration Debug for project String Stream Practice ****
+make all 
+Building file: ../src/String Stream Practice.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Stream Practice.d" -MT"src/String\ Stream\ Practice.d" -o "src/String Stream Practice.o" "../src/String Stream Practice.cpp"
+Finished building: ../src/String Stream Practice.cpp
+ 
+Building target: String Stream Practice
+Invoking: Cross G++ Linker
+g++  -o "String Stream Practice"  ./src/String\ Stream\ Practice.o   
+Finished building target: String Stream Practice
+ 
+
+15:31:40 Build Finished (took 664ms)
+

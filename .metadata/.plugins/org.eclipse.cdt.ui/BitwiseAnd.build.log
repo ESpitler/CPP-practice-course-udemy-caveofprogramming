@@ -1,0 +1,15 @@
+17:15:49 **** Incremental Build of configuration Debug for project BitwiseAnd ****
+make all 
+Building file: ../src/BitwiseAnd.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BitwiseAnd.d" -MT"src/BitwiseAnd.d" -o "src/BitwiseAnd.o" "../src/BitwiseAnd.cpp"
+Finished building: ../src/BitwiseAnd.cpp
+ 
+Building target: BitwiseAnd
+Invoking: Cross G++ Linker
+g++  -o "BitwiseAnd"  ./src/BitwiseAnd.o   
+Finished building target: BitwiseAnd
+ 
+
+17:15:50 Build Finished (took 666ms)
+

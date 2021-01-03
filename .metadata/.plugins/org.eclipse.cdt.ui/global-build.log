@@ -1,0 +1,84 @@
+02:05:19 **** Build of configuration Debug for project TestLibrary ****
+make all 
+Building file: ../src/TestLibrary.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/evan/eclipse_ws/animals/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestLibrary.d" -MT"src/TestLibrary.d" -o "src/TestLibrary.o" "../src/TestLibrary.cpp"
+Finished building: ../src/TestLibrary.cpp
+ 
+Building target: TestLibrary
+Invoking: Cross G++ Linker
+g++ -L/home/evan/eclipse_ws/animals/Release/ -o "TestLibrary"  ./src/TestLibrary.o   -lanimals
+Finished building target: TestLibrary
+ 
+02:05:26 **** Incremental Build of configuration Debug for project TestLibrary ****
+make all 
+make: Nothing to be done for 'all'.
+02:24:38 **** Incremental Build of configuration Debug for project SDLBasic ****
+make all 
+Building file: ../src/SDLBasic.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SDLBasic.d" -MT"src/SDLBasic.d" -o "src/SDLBasic.o" "../src/SDLBasic.cpp"
+Finished building: ../src/SDLBasic.cpp
+ 
+Building target: SDLBasic
+Invoking: Cross G++ Linker
+g++ -L/usr/lib/x86_64-linux-gnu -o "SDLBasic"  ./src/Particle.o ./src/SDLBasic.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDLBasic
+ 
+01:35:28 **** Incremental Build of configuration Debug for project SDLBasic ****
+make all 
+make: Nothing to be done for 'all'.
+01:42:35 **** Incremental Build of configuration Debug for project SDLBasic ****
+make all 
+make: Nothing to be done for 'all'.
+01:44:32 **** Incremental Build of configuration Debug for project SDLBasic ****
+make all 
+make: Nothing to be done for 'all'.
+02:43:29 **** Build of configuration Debug for project Variables ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Android;C:\Windows\System32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Evan\AppData\Local\Microsoft\WindowsApps;C:\OpenSSL-Win32\bin;C:\Users\Evan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Evan\AppData\Local\GitHubDesktop\bin;C:\Users\Evan\AppData\Local\particle\bin;C:\WINDOWS\system32]
+02:47:13 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Android;C:\Windows\System32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Evan\AppData\Local\Microsoft\WindowsApps;C:\OpenSSL-Win32\bin;C:\Users\Evan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Evan\AppData\Local\GitHubDesktop\bin;C:\Users\Evan\AppData\Local\particle\bin;C:\WINDOWS\system32]
+06:30:09 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Android;C:\Windows\System32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Evan\AppData\Local\Microsoft\WindowsApps;C:\OpenSSL-Win32\bin;C:\Users\Evan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Evan\AppData\Local\GitHubDesktop\bin;C:\Users\Evan\AppData\Local\particle\bin;C:\WINDOWS\system32]
+06:30:18 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Android;C:\Windows\System32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Evan\AppData\Local\Microsoft\WindowsApps;C:\OpenSSL-Win32\bin;C:\Users\Evan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Evan\AppData\Local\GitHubDesktop\bin;C:\Users\Evan\AppData\Local\particle\bin;C:\WINDOWS\system32]
+06:53:44 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Android;C:\Windows\System32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Evan\AppData\Local\Microsoft\WindowsApps;C:\OpenSSL-Win32\bin;C:\Users\Evan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Evan\AppData\Local\GitHubDesktop\bin;C:\Users\Evan\AppData\Local\particle\bin;C:\WINDOWS\system32]
+07:04:09 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Android;C:\Windows\System32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Evan\AppData\Local\Microsoft\WindowsApps;C:\OpenSSL-Win32\bin;C:\Users\Evan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Evan\AppData\Local\GitHubDesktop\bin;C:\Users\Evan\AppData\Local\particle\bin;C:\WINDOWS\system32]
+07:06:23 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Android;C:\Windows\System32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Evan\AppData\Local\Microsoft\WindowsApps;C:\OpenSSL-Win32\bin;C:\Users\Evan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Evan\AppData\Local\GitHubDesktop\bin;C:\Users\Evan\AppData\Local\particle\bin;C:\WINDOWS\system32]
+07:06:27 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Android;C:\Windows\System32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Evan\AppData\Local\Microsoft\WindowsApps;C:\OpenSSL-Win32\bin;C:\Users\Evan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Evan\AppData\Local\GitHubDesktop\bin;C:\Users\Evan\AppData\Local\particle\bin;C:\WINDOWS\system32]

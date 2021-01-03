@@ -1,0 +1,15 @@
+01:20:16 **** Incremental Build of configuration Debug for project BitShiftingStuff ****
+make all 
+Building file: ../src/BitShiftingStuff.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BitShiftingStuff.d" -MT"src/BitShiftingStuff.d" -o "src/BitShiftingStuff.o" "../src/BitShiftingStuff.cpp"
+Finished building: ../src/BitShiftingStuff.cpp
+ 
+Building target: BitShiftingStuff
+Invoking: Cross G++ Linker
+g++  -o "BitShiftingStuff"  ./src/BitShiftingStuff.o   
+Finished building target: BitShiftingStuff
+ 
+
+01:20:17 Build Finished (took 663ms)
+

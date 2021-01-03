@@ -1,0 +1,15 @@
+22:27:10 **** Incremental Build of configuration Debug for project New_Keyword ****
+make all 
+Building file: ../src/New_Keyword.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/New_Keyword.d" -MT"src/New_Keyword.d" -o "src/New_Keyword.o" "../src/New_Keyword.cpp"
+Finished building: ../src/New_Keyword.cpp
+ 
+Building target: New_Keyword
+Invoking: Cross G++ Linker
+g++  -o "New_Keyword"  ./src/New_Keyword.o   
+Finished building target: New_Keyword
+ 
+
+22:27:11 Build Finished (took 712ms)
+

@@ -1,0 +1,15 @@
+01:16:39 **** Incremental Build of configuration Debug for project Static Keyword ****
+make all 
+Building file: ../src/Static Keyword.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static Keyword.d" -MT"src/Static\ Keyword.d" -o "src/Static Keyword.o" "../src/Static Keyword.cpp"
+Finished building: ../src/Static Keyword.cpp
+ 
+Building target: Static Keyword
+Invoking: Cross G++ Linker
+g++  -o "Static Keyword"  ./src/Static\ Keyword.o   
+Finished building target: Static Keyword
+ 
+
+01:16:39 Build Finished (took 710ms)
+

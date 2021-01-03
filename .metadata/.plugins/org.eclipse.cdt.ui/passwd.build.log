@@ -1,0 +1,6 @@
+01:50:28 **** Incremental Build of configuration Debug for project passwd ****
+make all 
+make: Nothing to be done for 'all'.
+
+01:50:29 Build Finished (took 259ms)
+

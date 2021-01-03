@@ -1,0 +1,19 @@
+20:50:34 **** Incremental Build of configuration Debug for project Arrays and Functions ****
+make all 
+Building file: ../src/Arrays and Functions.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arrays and Functions.d" -MT"src/Arrays\ and\ Functions.d" -o "src/Arrays and Functions.o" "../src/Arrays and Functions.cpp"
+../src/Arrays and Functions.cpp: In function ‘void show3(std::__cxx11::string (&)[3])’:
+../src/Arrays and Functions.cpp:33:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<sizeof (texts)/sizeof (string);i++){
+               ^
+Finished building: ../src/Arrays and Functions.cpp
+ 
+Building target: Arrays and Functions
+Invoking: Cross G++ Linker
+g++  -o "Arrays and Functions"  ./src/Arrays\ and\ Functions.o   
+Finished building target: Arrays and Functions
+ 
+
+20:50:35 Build Finished (took 661ms)
+

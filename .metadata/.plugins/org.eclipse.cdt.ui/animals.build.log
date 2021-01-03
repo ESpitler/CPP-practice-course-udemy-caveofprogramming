@@ -1,0 +1,16 @@
+01:52:53 **** Incremental Build of configuration Release for project animals ****
+make all 
+Building file: ../Cat.cpp
+Invoking: Cross G++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Cat.d" -MT"Cat.d" -o "Cat.o" "../Cat.cpp"
+Finished building: ../Cat.cpp
+ 
+Building target: libanimals.a
+Invoking: Cross GCC Archiver
+ar -r  "libanimals.a"  ./Cat.o   
+ar: creating libanimals.a
+Finished building target: libanimals.a
+ 
+
+01:52:54 Build Finished (took 611ms)
+

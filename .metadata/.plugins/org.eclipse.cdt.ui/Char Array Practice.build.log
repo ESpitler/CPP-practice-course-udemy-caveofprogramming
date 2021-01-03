@@ -1,0 +1,19 @@
+17:03:00 **** Incremental Build of configuration Debug for project Char Array Practice ****
+make all 
+Building file: ../src/Char Array Practice.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Array Practice.d" -MT"src/Char\ Array\ Practice.d" -o "src/Char Array Practice.o" "../src/Char Array Practice.cpp"
+../src/Char Array Practice.cpp: In function ‘int main()’:
+../src/Char Array Practice.cpp:23:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < sizeof(nameIs); i++){
+                    ^
+Finished building: ../src/Char Array Practice.cpp
+ 
+Building target: Char Array Practice
+Invoking: Cross G++ Linker
+g++  -o "Char Array Practice"  ./src/Char\ Array\ Practice.o   
+Finished building target: Char Array Practice
+ 
+
+17:03:01 Build Finished (took 662ms)
+

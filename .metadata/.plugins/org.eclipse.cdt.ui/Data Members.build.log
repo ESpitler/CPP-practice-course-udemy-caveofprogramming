@@ -1,0 +1,20 @@
+02:36:52 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.d" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: Cross G++ Linker
+g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Data Members
+ 
+
+02:36:53 Build Finished (took 768ms)
+

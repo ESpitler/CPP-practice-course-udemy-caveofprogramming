@@ -1,0 +1,15 @@
+14:16:44 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+Finished building: ../src/Getters and Setters.cpp
+ 
+Building target: Getters and Setters
+Invoking: Cross G++ Linker
+g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
+Finished building target: Getters and Setters
+ 
+
+14:16:44 Build Finished (took 662ms)
+

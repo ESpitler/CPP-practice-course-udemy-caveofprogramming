@@ -1,0 +1,15 @@
+00:33:21 **** Incremental Build of configuration Debug for project functions ****
+make all 
+Building file: ../src/functions.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.d" -o "src/functions.o" "../src/functions.cpp"
+Finished building: ../src/functions.cpp
+ 
+Building target: functions
+Invoking: Cross G++ Linker
+g++  -o "functions"  ./src/functions.o   
+Finished building target: functions
+ 
+
+00:33:22 Build Finished (took 661ms)
+

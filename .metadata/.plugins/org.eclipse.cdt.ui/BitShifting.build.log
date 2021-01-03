@@ -1,0 +1,25 @@
+01:18:06 **** Incremental Build of configuration Debug for project BitShifting ****
+make all 
+Building file: ../src/BitShifting.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BitShifting.d" -MT"src/BitShifting.d" -o "src/BitShifting.o" "../src/BitShifting.cpp"
+../src/BitShifting.cpp: In function ‘int main()’:
+../src/BitShifting.cpp:17:16: warning: unused variable ‘red’ [-Wunused-variable]
+  unsigned char red = 0x12;
+                ^
+../src/BitShifting.cpp:18:16: warning: unused variable ‘green’ [-Wunused-variable]
+  unsigned char green = 0x34;
+                ^
+../src/BitShifting.cpp:19:16: warning: unused variable ‘blue’ [-Wunused-variable]
+  unsigned char blue = 0x56;
+                ^
+Finished building: ../src/BitShifting.cpp
+ 
+Building target: BitShifting
+Invoking: Cross G++ Linker
+g++  -o "BitShifting"  ./src/BitShifting.o   
+Finished building target: BitShifting
+ 
+
+01:18:07 Build Finished (took 662ms)
+

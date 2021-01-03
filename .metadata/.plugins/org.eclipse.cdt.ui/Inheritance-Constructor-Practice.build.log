@@ -1,0 +1,15 @@
+18:26:13 **** Incremental Build of configuration Debug for project Inheritance-Constructor-Practice ****
+make all 
+Building file: ../src/Inheritance-Constructor-Practice.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance-Constructor-Practice.d" -MT"src/Inheritance-Constructor-Practice.d" -o "src/Inheritance-Constructor-Practice.o" "../src/Inheritance-Constructor-Practice.cpp"
+Finished building: ../src/Inheritance-Constructor-Practice.cpp
+ 
+Building target: Inheritance-Constructor-Practice
+Invoking: Cross G++ Linker
+g++  -o "Inheritance-Constructor-Practice"  ./src/Inheritance-Constructor-Practice.o   
+Finished building target: Inheritance-Constructor-Practice
+ 
+
+18:26:13 Build Finished (took 712ms)
+

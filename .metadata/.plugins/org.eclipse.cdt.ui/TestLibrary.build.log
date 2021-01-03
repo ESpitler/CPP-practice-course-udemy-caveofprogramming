@@ -1,0 +1,6 @@
+02:05:26 **** Incremental Build of configuration Debug for project TestLibrary ****
+make all 
+make: Nothing to be done for 'all'.
+
+02:05:26 Build Finished (took 513ms)
+

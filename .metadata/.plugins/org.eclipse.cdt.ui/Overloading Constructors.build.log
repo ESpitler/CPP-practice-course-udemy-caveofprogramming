@@ -1,0 +1,20 @@
+15:58:40 **** Incremental Build of configuration Debug for project Overloading Constructors ****
+make all 
+Building file: ../src/Overloading Constructors.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Overloading Constructors.d" -MT"src/Overloading\ Constructors.d" -o "src/Overloading Constructors.o" "../src/Overloading Constructors.cpp"
+Finished building: ../src/Overloading Constructors.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.d" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Overloading Constructors
+Invoking: Cross G++ Linker
+g++  -o "Overloading Constructors"  ./src/Overloading\ Constructors.o ./src/Person.o   
+Finished building target: Overloading Constructors
+ 
+
+15:58:41 Build Finished (took 813ms)
+
